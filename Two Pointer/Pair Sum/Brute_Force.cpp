@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-vector<int> Two_sum_Brute_Force(vector<int> &array, int target)
+vector <int> Two_sum_Brute_Force(vector<int> &array, int target)
 {
     int n = array.size();
     for (int i = 0; i < n; i++)
