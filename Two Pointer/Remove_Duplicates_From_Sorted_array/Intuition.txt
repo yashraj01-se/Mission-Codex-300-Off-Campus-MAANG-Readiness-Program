@@ -1,0 +1,7 @@
+Cue 1 -> Sorted arrays almost always allow Two Pointer techniques.
+Cue 2 -> We need to modify the array in place.
+Cue 3 -> i reads every element, j writes the unique element.
+
+Basically, i scans the array as the fast pointer, and j tracks the position of the last unique element.
+Whenever a new unique element is found (array[i] != array[j]), we increment j and overwrite the value at j with array[i].
+This compresses all unique values to the front of the array in-place.

@@ -1,0 +1,14 @@
+Brute Force:
+
+Time Complexity: O(n)
+Space Complexity : O(n)
+
+Better Solution:
+
+Time Complexity: O(n log n)
+Space Complexity: O(n)
+
+Optimal solution(Two Pointer):
+
+Time Complexity: O(n)
+Space Complexity: O(1) // Main focus of this Question
