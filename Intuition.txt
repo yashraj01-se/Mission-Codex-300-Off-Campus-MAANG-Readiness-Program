@@ -1,4 +1,0 @@
-Cue 1 -> The array is sorted and we need to find a pair.
-Cue 2 -> We need to find a pair to match our target.
-Cue 3 -> we need O(1) space (Return only the Indics).
-Cue 4 -> This naturally suggest us to go from both ends.
