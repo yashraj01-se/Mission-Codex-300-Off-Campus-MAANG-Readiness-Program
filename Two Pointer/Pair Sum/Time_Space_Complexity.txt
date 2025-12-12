@@ -2,6 +2,7 @@ Time Complexity:
 
 -> Each pointer moves only in one direction, and at most n steps total.
 -> O(n)
+
 Why not O(n²)?
 Because we never restart either pointer.
 We only shrink the search space from both ends.

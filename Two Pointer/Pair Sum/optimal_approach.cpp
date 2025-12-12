@@ -42,7 +42,7 @@ int main()
     int target = 9;
     vector<int> ans = Two_sum_optimal_approach(array, target);
 
-    cout << "[";
+    cout << "[" ;
     for (auto it : ans)
     {
         cout << it << ",";
