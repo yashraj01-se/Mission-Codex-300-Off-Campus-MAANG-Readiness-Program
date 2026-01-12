@@ -10,10 +10,10 @@ vector<int>Remove_Dup(vector<int>&arr){
 
     while(j<n){
         if(arr[i]==arr[j]){
-            j++; // CM moves ahead
+            j++; // CM moves ahead as same jati
         }
         else{
-            arr[i+1]=arr[j]; // officer updates next position
+            arr[i+1]=arr[j]; // officer updates next position with new element
             i++;
             j++;
         }
