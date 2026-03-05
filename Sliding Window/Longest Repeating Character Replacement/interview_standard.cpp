@@ -27,7 +27,7 @@ int sol(string &s, int k)
 int main()
 {
     string s = "ABAB";
-    int k = 2;
+    int k =2;
     int ans = sol(s, k);
     cout << ans;
 }
