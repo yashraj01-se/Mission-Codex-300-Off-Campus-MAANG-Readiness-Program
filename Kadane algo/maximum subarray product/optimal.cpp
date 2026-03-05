@@ -7,7 +7,7 @@ int maxprodsubarray(vector<int> &arr)
     int minending = arr[0];
     int ans = arr[0];
 
-    for (int i = 0; i < arr.size(); i++)
+    for (int i = 1; i < arr.size(); i++)
     {
         int v1 = arr[i]; //first option 
         int v2 = maxending * arr[i]; //second option 

@@ -12,7 +12,8 @@ int maxsumsubarraydel(vector<int>&arr){
         int prev=nodelete;
         nodelete=max(nodelete+arr[i],arr[i]); // normal Kadane's algo;
 
-        if(onedelete==INT_MIN){
+        
+        if(onedelete==INT_MIN){ //deletetion scenarios;
             onedelete=prev;
         }
         else{
