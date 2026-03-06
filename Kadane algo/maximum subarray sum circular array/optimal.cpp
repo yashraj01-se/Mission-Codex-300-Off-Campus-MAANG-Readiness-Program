@@ -20,9 +20,9 @@ int cirarraysum(vector<int> &arr)
     for (int i = 1; i < arr.size(); i++)
     {
         currmaxsum = max(currmaxsum + arr[i], arr[i]);
-        maxsum = max(currmaxsum, maxsum);
+        maxsum = max(currmaxsum, maxsum); // Hadling Middle part
         currminsum = min(currminsum + arr[i], arr[i]);
-        minsum = min(currminsum,minsum);
+        minsum = min(currminsum,minsum); // For Handling corners 
     }
     int total = t(arr);
     if (maxsum < 0)
