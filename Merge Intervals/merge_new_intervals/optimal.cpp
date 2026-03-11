@@ -33,8 +33,9 @@ int main()
 {
     vector<vector<int>> intervals = {{1, 3}, {6, 9}};
     vector<int> newinterval = {2, 5};
-
     vector<vector<int>>res;
+
+    // Insertion:
     bool insert=false;
     for(int i=0;i<intervals.size();i++){
         int start=intervals[i][0];
@@ -49,6 +50,7 @@ int main()
         res.push_back({newinterval[0],newinterval[1]});
     }
 
+    // overlap Merger:
     vector<vector<int>> ans = merge_interval(res);
 
     cout << "[";
