@@ -9,7 +9,7 @@ int contiarr(vector<int>&arr){
     int diff=0;
     
     for(int i=0;i<arr.size();i++){
-        if(arr[i]==1)diff++;
+        if(arr[i]==1)diff++; // 1 if num[i]==1 else -1 for 0
         else diff--;
 
         if(mp.count(diff)){
